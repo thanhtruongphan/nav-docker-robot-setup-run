@@ -18,6 +18,11 @@ if doesn't work, pls try:
 git clone -b pr-lidar https://github.com/hippo5329/linorobot2.git
 cd linorobot2/docker
 sudo docker compose build
+sudo docker compose up bringup
+```
+on another Tab, run it
+```
+cd linorobot2/docker
 sudo docker compose up -d webtop bringup debug navigate rviz-nav slam
 ```
 ... navigate in rviz
